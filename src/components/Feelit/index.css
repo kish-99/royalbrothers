@@ -1,0 +1,152 @@
+section {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  z-index:-1;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.add_on{
+    display: none;
+}
+
+.book_now_button{
+background-color:orange;
+margin-top:25px;
+padding:1rem;
+}
+
+.column {
+  width: 150%;
+  padding: 0 1em 1em 1em;
+  text-align: center;
+  list-style-type:none;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+  margin:auto;
+  margin-left:1rem;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1f194c;
+  margin: 1em 0;
+}
+p {
+  color: black;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  font-weight:bolder;
+  margin-top:1rem;
+  display:block;
+}
+.icon-wrapper {
+  position: relative;
+  margin: auto;
+  font-size: 85px;
+  height: 2.5em;
+  width: 2.5em;
+  color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+  z-index:-1;
+  margin-top:3rem;
+  margin-bottom:;
+}
+
+.duration-container{
+    display:flex ;
+    margin-left: auto ;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:2rem;
+}
+
+.duration-container h1{
+    padding:1rem;
+}
+
+.duration-container select{
+    padding:10px;
+    height:50px;
+}
+
+.section-heading{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    font-family:'Roboto';
+    font-size:20px;
+}
+
+.small_devices_message{
+    display:none;
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+  section {
+    padding: 0 2em;
+  }
+  .column {
+    flex: 0 50%;
+    max-width: 50%;
+  }
+  .duration-container{
+    margin:auto;
+    margin-bottom:2rem;
+  }
+  .extra_devices_message{
+    display:none;
+  }
+  .small_devices_message{
+    display:block;
+    text-align:center;
+  }
+  .bike_logo{
+    width:1.75em;
+  }
+}
+@media screen and (min-width: 992px) {
+  section {
+    padding: 1em 3em;
+  }
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 25%;
+  }
+  .duration-container{
+    margin-left:auto;
+    margin-bottom:2rem;
+  }
+  .bike_logo{
+    width:2em;
+    margin-right:auto;
+  }
+}
+
+@media screen and (max-width:767px) {
+    .extra_devices_message{
+        display:none;
+      }
+      .small_devices_message{
+        display:block;
+        text-align:center;
+        font-size:13px;
+      }
+}

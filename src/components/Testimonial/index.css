@@ -1,0 +1,122 @@
+.slider-container {
+    /* background-color: #fcfcfc; */
+    margin-top:25px;
+    margin-bottom:25px;
+    z-index:-1;
+}
+
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    perspective: 500px;
+    transform-style: preserve-3d;
+    transform-origin: 0% 50%;
+    touch-action:auto;
+    height:100%;
+}
+.testimonial-heading h2  {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 800 ;
+    text-align: center;
+    width: 100%;
+    font-family:"Roboto";
+    margin-bottom:25px;
+}
+
+.item-one {
+    width:41rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    padding: 7.5rem 5rem;
+
+}
+
+.carousel-item-1 {
+    background-image: url("https://d36g7qg6pk2cm7.cloudfront.net/assets/landing_page/slide-one-1a7d9a00252d397c615e4d3f9e14c1f8950ad546171c0d778494fb196bd31c5d.webp");
+    background-size: cover;
+    background-position: center;
+    z-index:-1;
+    min-width:100%;
+    height:100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.carousel-item-2 {
+    background-image: url("https://d36g7qg6pk2cm7.cloudfront.net/assets/landing_page/slide-two-152ea05aae51c961ff3777509bd1e8c0f5d66fa663f8dd91625581ef7f70a264.webp");
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.carousel-item-3 {
+    background-image: url("https://d36g7qg6pk2cm7.cloudfront.net/assets/landing_page/slide-three-4fb40ac9520409dd84fd281555d8546af4bac62d70f8ef8879e050c056f717d1.webp");
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    min-height: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width:768px) {
+    .mobile {
+        display: block;
+    }
+    .large {
+        display:none;
+    }
+
+}
+
+@media screen and (max-width:968px) {
+    .item-one {
+    display: none;
+    }
+}
+
+.item-one p {
+    font-size:1.1rem;
+    color:#666;
+    font-weight:400;
+    line-height:180%;
+    width:41rem;
+}
+
+.mobile-item h4 {
+    display: none;
+
+}
+
+.mobile_carousel_item{
+    display:none;
+}
+
+@media screen and (max-width:975px) {
+    .mobile-item h4 {
+        display: block;
+        text-align: center;
+        margin: 1rem;
+        font-size: 1.5rem;
+        color: #666;
+    }.carousel-item-1 .carousel-item-2 .carousel-item-3{
+        display:none;
+    }.large_device_slider{
+        display:none;
+    }.mobile_carousel_item{
+        display: block;
+    }.mobile_carousel_item img{
+        background-size:cover;
+        min-width:100%;
+    }
+}
+
+
+
+

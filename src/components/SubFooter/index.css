@@ -1,0 +1,94 @@
+.sub-footer {
+    background-color: #444444;
+    display: block;
+    padding-bottom:25px;
+}
+
+.sub-footer-container {
+    padding :1.5em 7.5em
+}
+@media screen and (max-width:590px) {
+  .sub-footer-container {
+    padding :1.5em 1.5em
+    }
+}
+@media screen and (max-width:590px) {
+  .sub-footer-container {
+    padding :1.5em 4.5em
+    }
+}
+
+.sub-footer-container h1 {
+    font-size:2em;
+    font-weight:700;
+    color:#fff;
+}
+@media screen and (max-width:590px) {
+    .sub-footer-container h1 {
+        font-size: 1.5em;
+        font-weight:400;
+    }
+}
+
+.city-links {
+    color:#fff;
+}
+.city-links-heading {
+    font-weight:800;
+    font-size:2em;
+    text-align: center;
+    margin:2em 0em;
+}
+
+.city-links .city-routes {
+    text-align:center
+}
+@media  screen and (max-width: 500px) {
+.sub-footer-container .city-links .city-routes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap ;
+}
+
+}
+
+.sub-footer-container .city-links p {
+    text-transform: initial;
+    color: #ddd;
+    text-align: center;
+    padding: 0.15em 0;
+    display: inline;
+    margin: 0;
+}
+.sub-footer-container p {
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 25px;
+}
+
+.sub-footer-container .city-links p a {
+    text-decoration: none;
+    color:#ddd;
+}
+
+.sub-footer-container .city-links p span {
+    color:#fff;
+    margin:0px 5px;
+    font-size:1.1em;
+}
+.sub-footer-container .city-links p a .dot {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 0.3em;
+    width: 0.3em;
+    transform: translateY(-4px);
+    margin: 0 0.4em
+}
+
+@media screen and (max-width: 500px) {
+    .sub-footer-container .city-links p a .dot {
+        display: none;
+    }
+}

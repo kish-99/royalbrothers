@@ -1,0 +1,22 @@
+.footer-copy {
+    color: #fff;
+    text-align: center;
+    background-color: #373737;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.15em ;
+    font-weight: 400;
+    padding:5px;
+    padding-bottom:50px;
+    width:100%;
+    position:absolute;
+    z-index:-2;
+}
+
+.footer-copy .icon {
+    transform: translateY(8px);
+    margin:0px 2px;
+    padding:0px;
+    color:red;
+}

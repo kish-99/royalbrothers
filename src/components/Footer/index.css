@@ -1,0 +1,90 @@
+.footer {
+    background-color: #373737;
+    padding-bottom:50px;
+    padding-top:20px;
+    bottom:0px;
+    color:#fff;
+}
+.footer-container {
+    padding: 2.5em 7.5em;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 576px) {
+.footer-container {
+    flex-direction: column;
+    padding: 1.5em 1.5em;
+    column-gap: 0;
+    margin:auto;
+}
+}
+@media screen and (max-width: 768px) {
+.footer-container {
+    flex-direction: row;
+    width: 80%;
+    padding: 1.5em 1.5em;
+    column-gap: 0;
+    margin:auto;
+}
+}
+
+.footer-box-heading {
+    font-size:1em;
+    font-weight:700;
+    margin-bottom: 2.5em;
+    text-transform: uppercase;
+}
+
+.footer-boxes ul {
+    list-style-type:none ;
+    padding-left:0px;
+}
+.footer-boxes ul li {
+    font-weight: 400;
+    font-size: 1em;
+    color: #ddd;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 1em;
+}
+.footer-boxes ul li a {
+    text-decoration: none;
+    color:#ddd;
+}
+
+.icon {
+    width:22px;
+    height: 28px;
+    margin-right:28px;
+    fill:#ddd;
+}
+
+.footer .space {
+    margin-top: 1rem;
+}
+.footer-boxes ul li .footer-careers span {
+    background-color: #555555;
+    border-radius: 0.3125em;
+    padding: 0.25em 0.5em;
+    margin-left: 0.5em;
+}
+
+.icons {
+    width:36px;
+    height:30px;
+    margin-right:10px;
+}
+
+.app-store {
+    width:125px;
+    height:45px;
+    margin-right: 2rem;
+}
+.play-store {
+    width:125px;
+    height:45px;
+}
